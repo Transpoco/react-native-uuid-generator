@@ -33,6 +33,6 @@ android {
 }
 
 dependencies {
-    implementation "com.facebook.react:react-native:${safeExtGet("reactNative", "+")}"
+    implementation "com.facebook.react:react-native:+" // From node_modules
 }
 
